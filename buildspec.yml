@@ -8,6 +8,7 @@ phases:
   install:
     commands:
     - echo installing maven...
+    - apt-get update -y
     - apt-get install -y maven
   build:
     commands:
