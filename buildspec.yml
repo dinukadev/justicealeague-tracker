@@ -17,20 +17,10 @@ phases:
 artifacts:
   files:
   - target/*.jar
+  - scripts/*.sh
+  - appspec.yml
   discard-paths: yes
-secondary-artifacts:
-  artifact1:
-    files:
-    - target/*.jar
-    discard-paths: yes
-  artifact2:
-    files:
-    - scripts/*.sh
-    discard-paths: yes
-  artifact3:
-    files:
-    - appspec.yml
-    discard-paths: yes
+
 cache:
   paths:
   - '/root/.m2/**/*'
