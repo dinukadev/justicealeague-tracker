@@ -22,6 +22,8 @@ secondary-artifacts:
   artifact1:
     files:
     - target/*.jar
+    - scripts/*.sh
+    - appspec.yml
     discard-paths: yes
 cache:
   paths:
