@@ -23,7 +23,7 @@ public class JusticeLeagueServiceImpl implements JusticeLeagueService {
         log.info("Received a request to get all the justice league members");
         return populateJusticeLeague();
     }
-
+ 
     private List<SuperHero> populateJusticeLeague() {
         SuperHero superMan = new SuperHero("Clark Kent", Arrays.asList("Flight", "Super human strength",
                 "X-ray vision"), "Metropolis");
