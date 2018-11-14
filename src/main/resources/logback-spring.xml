@@ -20,7 +20,7 @@
             </encoder>
         </appender>
 
-        <logger name="org.notification" level="INFO">
+        <logger name="com.justiceleague.justiceleaguetracker" level="INFO">
             <appender-ref ref="ROLLING"/>
         </logger>
 
@@ -48,7 +48,7 @@
             </encoder>
         </appender>
 
-        <logger name="org.notification" level="INFO">
+        <logger name="com.justiceleague.justiceleaguetracker" level="INFO">
             <appender-ref ref="ROLLING"/>
         </logger>
 
