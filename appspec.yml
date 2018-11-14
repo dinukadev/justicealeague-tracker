@@ -4,7 +4,7 @@ files:
 - source: /
   destination: /home/ec2-user
 hooks:
-  BeforeInstall:
+  AfterInstall:
   - location: fix_previleges.sh
     timeout: 300
     runas: root
